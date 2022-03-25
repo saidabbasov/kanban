@@ -1,0 +1,75 @@
+.kanban {
+    display: flex;
+    margin: 15px auto;
+}
+
+.kanban * {
+    font-family: sans-serif;
+}
+
+.kanbanColumn {
+    width: 270px;
+    background-color: #68c252;
+    padding: 25px;
+    border-radius: 5px;
+    margin-left:15px;
+}
+
+.kanbanColumnTitle {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: white;
+    user-select: none;
+}
+
+.kanbanColumnTitle input {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: black;
+    font-size: 16px;
+    padding: 10px 15px;
+
+}
+
+.itemInput {
+    padding: 10px 15px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.addItem {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    background: rgba(0,0,0,0.1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo {
+    display: flex;
+    position: relative;
+    padding: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 5px
+}
+
+.todoBtn {
+    margin-left:5px;
+    background-color: none;
+    border:none;
+}
+
+.buttons {
+    margin-left:70px
+}
+
+.buttons button:hover {
+    background-color: #68c252;
+    color:white
+}
